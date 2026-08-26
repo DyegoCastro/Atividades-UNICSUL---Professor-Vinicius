@@ -1,17 +1,38 @@
-# Olá! 👋
+# 👋 Olá, eu sou Dyego.
 
-## Sobre mim
+🎓 Estudante de **Ciência da Computação**  
+💻 Interessado em **Desenvolvimento Back-end**  
+🐍 Explorando **Python**  
+⚙️ Desenvolvendo minha base de programação com **C**
 
-🎓 Estudante de Ciência da Computação  
-💻 Foco em desenvolvimento Back-end  
-🐍 Estudando Python  
-⚙️ Desenvolvendo conhecimentos em C
+---
 
-## Tecnologias
+## 🚀 Sobre mim
+
+Sou estudante de Ciência da Computação e estou construindo minha jornada no desenvolvimento de software.
+
+Atualmente, meu foco está em fortalecer meus fundamentos de programação e desenvolver cada vez mais minhas habilidades voltadas para **Back-end**.
+
+Gosto de aprender colocando o conhecimento em prática, criando projetos e buscando entender não apenas **como** algo funciona, mas também **por que** funciona.
+
+---
+
+## 🛠️ Tecnologias
+
+### Linguagens
 
 - C
 - Python
 
-## Objetivo
+### Foco atual
 
-Aprimorar meus conhecimentos em programação e desenvolvimento Back-end, criando projetos e evoluindo continuamente na área de tecnologia.
+- 💻 Desenvolvimento Back-end
+- 🧠 Fundamentos de programação
+- 🔧 Construção de projetos
+- 📚 Aprendizado contínuo
+
+---
+
+## 🎯 Meu objetivo
+
+Evoluir constantemente como desenvolvedor, transformar conhecimento em projetos e construir uma base sólida para atuar profissionalmente com desenvolvimento **Back-end**.
