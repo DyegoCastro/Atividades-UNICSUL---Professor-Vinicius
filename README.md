@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Dyego Paiva
 
-🎓 Estudante de **Ciência da Computação**  
+🎓 Estudante de **Ciência da Computação** [1/8]
 💻 Foco em **Desenvolvimento Back-end**  
 🐍 Estudando **Python**  
 ⚙️ Desenvolvendo minha base de programação com **C**
