@@ -1,2 +1,10 @@
-# Atividades-UNICSUL---Professor-Vinicius
-Atividades relacionadas a Desenvolvimento front-end, Algoritmos e Desing
+# Olá! 👋
+
+## Sobre mim
+
+Estudante de Ciência da Computação, com foco em desenvolvimento Back-end.
+
+### Tecnologias
+
+- C
+- Python
