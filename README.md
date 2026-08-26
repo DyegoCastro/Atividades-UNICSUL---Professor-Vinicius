@@ -1,8 +1,8 @@
-# 👋 Olá, eu sou Dyego.
+# 👋 Olá, eu sou Dyego Paiva
 
 🎓 Estudante de **Ciência da Computação**  
-💻 Interessado em **Desenvolvimento Back-end**  
-🐍 Explorando **Python**  
+💻 Foco em **Desenvolvimento Back-end**  
+🐍 Estudando **Python**  
 ⚙️ Desenvolvendo minha base de programação com **C**
 
 ---
@@ -11,7 +11,7 @@
 
 Sou estudante de Ciência da Computação e estou construindo minha jornada no desenvolvimento de software.
 
-Atualmente, meu foco está em fortalecer meus fundamentos de programação e desenvolver cada vez mais minhas habilidades voltadas para **Back-end**.
+Atualmente, meu foco está em fortalecer meus fundamentos de programação e desenvolver minhas habilidades voltadas para **Back-end**.
 
 Gosto de aprender colocando o conhecimento em prática, criando projetos e buscando entender não apenas **como** algo funciona, mas também **por que** funciona.
 
@@ -24,7 +24,7 @@ Gosto de aprender colocando o conhecimento em prática, criando projetos e busca
 - C
 - Python
 
-### Foco atual
+### 🎯 Foco atual
 
 - 💻 Desenvolvimento Back-end
 - 🧠 Fundamentos de programação
@@ -33,6 +33,15 @@ Gosto de aprender colocando o conhecimento em prática, criando projetos e busca
 
 ---
 
+## 🌐 Onde me encontrar
+
+<a href="https://www.linkedin.com/in/dyego-paiva-b67744339">
+  <img src="https://img.shields.io/badge/LinkedIn-Conecte--se%20comigo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+---
+
 ## 🎯 Meu objetivo
 
 Evoluir constantemente como desenvolvedor, transformar conhecimento em projetos e construir uma base sólida para atuar profissionalmente com desenvolvimento **Back-end**.
+
