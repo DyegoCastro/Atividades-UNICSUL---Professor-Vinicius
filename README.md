@@ -2,9 +2,16 @@
 
 ## Sobre mim
 
-Estudante de Ciência da Computação, com foco em desenvolvimento Back-end.
+🎓 Estudante de Ciência da Computação  
+💻 Foco em desenvolvimento Back-end  
+🐍 Estudando Python  
+⚙️ Desenvolvendo conhecimentos em C
 
-### Tecnologias
+## Tecnologias
 
 - C
 - Python
+
+## Objetivo
+
+Aprimorar meus conhecimentos em programação e desenvolvimento Back-end, criando projetos e evoluindo continuamente na área de tecnologia.
