@@ -41,6 +41,14 @@ Gosto de aprender colocando o conhecimento em prática, criando projetos e busca
 
 ---
 
+## 📄 Currículo
+
+<a href="./Curriculo_Dyego_Luiz_Paiva_de_Castro.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/📄%20Ver%20meu%20Currículo-4285F4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver meu currículo">
+</a>
+
+---
+
 ## 🎯 Meu objetivo
 
 Evoluir constantemente como desenvolvedor, transformar conhecimento em projetos e construir uma base sólida para atuar profissionalmente com desenvolvimento **Back-end**.
