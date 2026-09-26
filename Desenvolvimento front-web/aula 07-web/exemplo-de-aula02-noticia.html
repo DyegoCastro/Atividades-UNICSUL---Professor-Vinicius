@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Turma</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: cornflowerblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #principal{
+            width: 80%;
+            margin: 30px auto;
+            background-color: rgb(170, 231, 231);
+            border: 1px solid black;
+           
+            
+        }
+        #topo_geral{
+            background-color: darkblue;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        #topo_geral h1{
+            margin: 0;
+        }
+        nav{
+            background-color: rgb(29, 44, 255);
+            padding: 10px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav a{
+            display: block;
+            color: rgb(231, 224, 224);
+            padding: 10px 16px;
+            border: 1px solid black;
+            text-decoration-line: none;
+            
+        }
+        nav a:hover{
+            background-color: rgb(0, 0, 0);
+            color: rgb(245, 248, 248);
+        }
+        article{
+            margin: 25px;
+            padding: 20px;
+            border: 1px solid white;
+        }
+        #topo_article{
+            border-bottom: 2px solid blue;
+            margin-bottom: 20px;
+        }
+        #topo_article h2{
+            color: black;
+            margin-top: 0;
+        }
+        article p{
+            color: black;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+        .data{
+            display: block;
+            color: rebeccapurple;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <header id="topo_geral">
+            <h1>Portal da Turma</h1>
+            <p>Informação, Tecnologia e Educação</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Notícias</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+                <header id="topo_article">
+                    <h2>Alunos iniciam projeto de página pessoal</h2>
+                    <span class="data">26 de setembro de 2026|10h24min</span>
+                </header>
+            
+                <p>
+                    Os estudantes da disciplina de Desenvolvimento Front-end iniciaram
+                     a criação da página pessoal
+                </p>
+                 <p>
+                    O projeto utilza títulos, parágrafos; imagens, 
+                    links, menus de navegação e diferentes elementos semânticos 
+                </p>
+                 <p>
+                    Na proxíma etapa, os estudantes aplicarão CSS 
+                    para modificar o layout da página.
+               </p>
+             </article>
+        </main>
+    </div>
+</body>
+</html>
