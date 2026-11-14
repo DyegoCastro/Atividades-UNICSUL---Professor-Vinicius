@@ -1,0 +1,196 @@
+/* Variáveis para o Tema Claro (Padrão) */
+:root {
+    --cor-fundo: #f4f6f9;
+    --cor-card: #ffffff;
+    --cor-texto: #222222;
+    --cor-texto-suave: #555555;
+    --cor-borda: #cccccc;
+    --cor-primaria: #0056b3;
+    --cor-primaria-hover: #003d82;
+    --cor-secundaria: #e2e8f0;
+    --cor-secundaria-hover: #cbd5e1;
+    --cor-resultado-fundo: #eef4fb;
+    --cor-resultado-borda: #0056b3;
+}
+
+/* Classe que será alternada via JavaScript (classList.toggle) */
+body.tema-escuro {
+    --cor-fundo: #121212;
+    --cor-card: #1e1e1e;
+    --cor-texto: #f1f1f1;
+    --cor-texto-suave: #bbbbbb;
+    --cor-borda: #444444;
+    --cor-primaria: #3b82f6;
+    --cor-primaria-hover: #2563eb;
+    --cor-secundaria: #333333;
+    --cor-secundaria-hover: #444444;
+    --cor-resultado-fundo: #1a2639;
+    --cor-resultado-borda: #3b82f6;
+}
+
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: var(--cor-card);
+    border-bottom: 1px solid var(--cor-borda);
+    padding: 1.2rem 0;
+}
+
+.cabecalho-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cabecalho h1 {
+    font-size: 1.4rem;
+}
+
+/* Conteúdo Principal */
+.principal {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.painel-card {
+    background-color: var(--cor-card);
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.descricao {
+    color: var(--cor-texto-suave);
+    margin-bottom: 1.5rem;
+}
+
+/* Formulário */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.campo-grupo label {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.campo-grupo input,
+.campo-grupo select {
+    padding: 0.75rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.campo-grupo input:focus,
+.campo-grupo select:focus {
+    outline: 2px solid var(--cor-primaria);
+    border-color: transparent;
+}
+
+/* Botões e estado :hover */
+.btn {
+    padding: 0.75rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primario {
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+}
+
+.btn-primario:hover {
+    background-color: var(--cor-primaria-hover);
+}
+
+.btn-secundario {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: 1px solid var(--cor-borda);
+}
+
+.btn-secundario:hover {
+    background-color: var(--cor-secundaria-hover);
+}
+
+/* Área de Resultado */
+.caixa-resultado {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--cor-resultado-fundo);
+    border-left: 4px solid var(--cor-resultado-borda);
+    font-size: 1rem;
+}
+
+/* Classe opcional que você pode adicionar via JS quando o nome estiver vazio */
+.caixa-resultado.erro {
+    background-color: #fde8e8;
+    border-left-color: #dc2626;
+    color: #991b1b;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    color: var(--cor-texto-suave);
+    border-top: 1px solid var(--cor-borda);
+    background-color: var(--cor-card);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    .cabecalho-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .painel-card {
+        padding: 1.2rem;
+    }
+}

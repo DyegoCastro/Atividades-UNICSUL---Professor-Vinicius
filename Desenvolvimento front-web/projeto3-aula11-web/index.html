@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra seu caminho no Front-End</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <h1>Descubra seu caminho no Front-End</h1>
+            <button type="button" id="btn-tema" class="btn btn-secundario">Alterar tema</button>
+        </div>
+    </header>
+
+    <main class="container principal">
+        <section class="painel-card">
+            <p class="descricao">
+                Preencha seu nome e selecione uma tecnologia abaixo para receber uma dica personalizada de estudos.
+            </p>
+
+            <form id="form-orientacao" class="formulario">
+                <div class="campo-grupo">
+                    <label for="input-nome">Seu nome:</label>
+                    <input type="text" id="input-nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="select-area">Área de interesse:</label>
+                    <select id="select-area">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </select>
+                </div>
+
+                <button type="button" id="btn-gerar" class="btn btn-primario">Gerar orientação</button>
+            </form>
+
+            <!-- Área onde o JavaScript exibirá a mensagem ou o alerta de erro -->
+            <div id="area-resultado" class="caixa-resultado" aria-live="polite">
+                Aguardando suas informações...
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto 3 - Desenvolvimento Front-End para Web | 2026</p>
+    </footer>
+
+    <!-- Ligação com o JavaScript externo -->
+    <script src="js/script.js"></script>
+</body>
+</html>
