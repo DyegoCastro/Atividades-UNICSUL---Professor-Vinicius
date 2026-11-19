@@ -1,0 +1,6 @@
+
+Biblioteca 780.50 800.00
+Laboratorio1 925.00 850.00
+Cantina 640.75 600.00
+BlocoA 710.00 750.00
+BlocoB 890.25 820.00
